@@ -51,7 +51,7 @@ namespace Animais
                 {
                     Console.WriteLine($"\nNome do animal: {animal.nome}\n Cor do animal: {animal.cor}\n Tipo do animal: {animal.tipo}\n Som do animal: {animSelv.som}\n Endereço do animal: {animSelv.habitat}\n Locomoção do animal: Nadar");
                 }
-                else if (animSelv.especie == "Terrestre" || animSelv.especie == "terrestreSelv")
+                else if (animSelv.especie == "Terrestre" || animSelv.especie == "terrestre")
                 {
                     Console.WriteLine($"\nNome do animal: {animal.nome}\n Cor do animal: {animal.cor}\n Tipo do animal: {animal.tipo}\n Som do animal: {animSelv.som}\n Endereço do animal: {animSelv.habitat}\n Locomoção do animal: Andar");
                 }
